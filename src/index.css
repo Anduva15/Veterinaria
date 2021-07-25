@@ -1,13 +1,213 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+    font-size: 62.5%;
+    width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{   
+    font-size: 16px;    
+    margin: 0;
+    background-color: #dac292;
+    }
+    
+    *, *:before, *:after{
+        box-sizing: inherit;
+    }
+
+.contenedor-header{
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
 }
+
+.bg-header{
+background-color: #b9936c;
+height: 4rem;
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+   height: 100%;
+}
+
+
+
+.nav-principal a{
+    padding:  2rem 10rem;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+ 
+    
+}
+
+.nav-principal a img{
+  height: 3rem;
+ 
+    
+}
+
+.bg-inicio{
+    background-image: url(../src/img/bginicio.jpg);
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor-inicio{
+    background-color: rgb(0 0 0  /30%);
+    color: var(--Blanco);
+    width: 40rem;
+    height: 56rem;
+    padding: 2rem; 
+}
+
+.contenedor-inicio h2, h4{
+    font-weight: 1100;
+    color: white;
+}
+
+
+.contenedor-inicio a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.lista-inicio li{
+    padding: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.boton-inicio{
+    background-color: var(--Terciario);
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+   
+    position: relative;
+    left: 30%;
+    top: 5%;
+    
+}
+
+
+.boton-inicio a{
+    color:white;
+    width: 15rem;
+    height: 4rem;
+}    
+
+#titulo-servicios{
+    text-align: center;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+    align-items: center;  
+   
+}
+
+.servicios{
+    border:black 0.1px solid;
+    width: 30.9rem;
+    height: 20rem;
+
+}
+
+.servicios h3{
+    text-align: center;
+    margin: 0%;
+    padding: 9rem 0;
+    
+}
+
+.tienda-bg{
+    background-image: url(../src/img/tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: 300 x 202;
+    
+}
+.corte-bg{
+    background-image: url(../src/img/corte.PNG);
+    background-repeat: no-repeat;
+    background-size: 300 x 202;
+  
+}
+.paseador-bg{
+    background-image: url(../src/img/paseador.jpg );
+    background-repeat: no-repeat;
+    background-size: 300 x 202;
+
+}
+
+h2{
+    text-align: center;
+    padding: 4rem 0 0 0;
+}
+.membresia{
+    display: flex;
+    align-items: center;
+
+    padding:  0 2rem 4rem 2rem;
+    margin: 0;
+    }
+
+  
+    .membresia-text{
+        
+        text-align: left;
+        width: 45%;
+        padding: 0 2rem 0 1rem;
+    }
+    .membresia-slides{
+        background-image: url(../src/img/perritolindo.jpg);
+        width: 45%;
+        height: 35rem;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+    }
+    .membresia button{
+        background-color: var(--Terciario);
+        width: 20rem;
+        height: 3rem;
+        border-radius: 5px;
+        padding: 1rem;
+        position: relative;
+        left: 22.5%;
+        
+    }
+    
+    .bg-footer{
+        background-color: #b9936c;
+        height: 8rem;  
+        margin: 0 auto;
+    }
+
+    .bg-footer h4{
+        text-align: center;
+        padding: 1rem 0 0 0;
+        margin: 0;
+        color: black;
+    }
+    
+    .nav-footer{
+       height: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center; 
+      
+    }   
+
+    .contenedor-footer{
+        width: 100%;
+        height: 20%;
+        margin: 0 auto;
+    }
