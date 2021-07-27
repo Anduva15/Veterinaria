@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#btninicio{
+    position: absolute;
+   top: 2%;
+   left: 2%;
+   background-color: transparent;
+   width: 10rem;
+   height: 3vh;
+   border: 1px solid black;
+    border-radius: 2rem;
+    
+} 
+
+#btninicio a{
+  color: black;
+  text-decoration: none;
+}
+
+#btninicio:hover{
+  background-color: white;
+    
+}
+
+
+
+#contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#section1 {
+    width: 50%;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(-40deg,  #3e4444, #82b74b );
+    background-size: 140% 140%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+
+#section2  {
+    width: 50%;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(40deg,  #3e4444, #82b74b);
+    background-size: 140% 180%;
+    position: absolute;
+   left: 50%;
+    animation: change 8s ease-in-out infinite;
+   
+}
+
+#register {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+#register input{
+    position: relative;
+    right: 5%;
+    width: 50%;
+    background: transparent;
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: 1rem;
+    
+}
+
+
+
+label{
+    font-size: 2rem;
+}
+
+
+input[type = checkbox]{
+    position: relative;
+    right: 25%;
+    opacity: 0.6;
+}
+
+
+
+p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+#register button{
+
+      
+    color: white;
+    position: relative;
+    right: 18%;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: 1rem;
+    border-radius: 2rem;
+
+}
+
+#register button:hover{
+background-color: white;
+color: black;
+position: relative;
+border: 2px solid black;
+padding: 1rem; 
+margin: 1rem;
+}
+
+#login{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+#login label{
+    position: relative;
+    top: 40%;
+    left: 15%;
+}
+
+#login input{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    background: transparent;
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: 1rem;
+    
+}
+
+#login button{
+
+      
+    color: white;
+    position: relative;
+    left: 1%;
+    width: 110%;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: 3rem 0;
+    border-radius: 2rem;
+}
+
+#login button:hover{
+background-color: white;
+color: black;
+
+
+
+}
+
+
